@@ -1,26 +1,27 @@
-*.pyc
 .idea
-build
-sandbox
+.task
 
-html-coverage
-html-report
+sandbox/*
+*.pyc
+__pycache__/
+todo
+results
+.config
+env
 
-.~lock.*
 *.dot
 *.svg
+artifacts
 
+*.ipynb_checkpoints
+*.parquet
+*.pickle
 
-dist
-*egg-info
+.coverage
 
-*/.ipynb_checkpoints
+.pytest_cache
+.venv
 
-*/__pycache__
-*/*.pyc
-.ipynb_checkpoints
+.DS_Store
 
-prices.csv
-pyhrp/hierarchical_portfolio.py
-
-test/test_hrp_opt.py
+htmlcov
